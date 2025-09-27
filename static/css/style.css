@@ -1,0 +1,162 @@
+/* Custom styles for the inventory optimization dashboard */
+
+/* General styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Card styles */
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+}
+
+/* Nav tabs */
+.nav-tabs .nav-link {
+  border: none;
+  color: #6c757d;
+  font-weight: 500;
+  padding: 0.75rem 1.25rem;
+  transition: all 0.2s;
+}
+
+.nav-tabs .nav-link.active {
+  color: #0d6efd;
+  background-color: transparent;
+  border-bottom: 2px solid #0d6efd;
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+  color: #0d6efd;
+  background-color: rgba(13, 110, 253, 0.05);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-1px);
+}
+
+/* Tables */
+.table {
+  font-size: 0.9rem;
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  color: #6c757d;
+  border-top: none;
+}
+
+/* Alerts */
+.alert {
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Upload area */
+.upload-area {
+  border: 2px dashed #dee2e6;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.upload-area:hover {
+  border-color: #0d6efd;
+  background-color: rgba(13, 110, 253, 0.02);
+}
+
+.upload-area i {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+
+/* Forecast cards */
+.forecast-card {
+  margin-bottom: 1.5rem;
+}
+
+.forecast-card .card-body {
+  padding: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-tabs .nav-link {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Animation for loading */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

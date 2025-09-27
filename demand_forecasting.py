@@ -3,11 +3,15 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+# Set Agg backend before importing pyplot
+import matplotlib
+matplotlib.use('Agg')  # Set the backend to 'Agg' which doesn't require a display
+
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # Plotting
-import matplotlib.pyplot as plt
 
 
 def load_data(
@@ -488,5 +492,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-

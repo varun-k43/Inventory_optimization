@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Inventory Icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#0D6EFD" x="0" y="0" width="64" height="64" rx="12"></rect>
+        <g id="inventory" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M36,4 L4,4 C1.8,4 0.02,5.8 0.02,8 L0,36 C0,38.2 1.8,40 4,40 L36,40 C38.2,40 40,38.2 40,36 L40,8 C40,5.8 38.2,4 36,4 Z M36,36 L4,36 L4,8 L36,8 L36,36 Z M10,32 L30,32 L30,28 L10,28 L10,32 Z M10,24 L30,24 L30,20 L10,20 L10,24 Z M10,16 L30,16 L30,12 L10,12 L10,16 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
